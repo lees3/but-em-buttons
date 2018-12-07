@@ -24,3 +24,7 @@ i img {
   position: absolute;
   transition: all 200ms linear;
 }
+
+.btn-ghost:hover i img {
+  top: -2px;
+}
