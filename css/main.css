@@ -49,3 +49,11 @@ i img {
 .btn-ghost:active .button-bottom {
   min-height: .2em;
 }
+
+.btn-ghost:hover,
+.btn-ghost:focus,
+.btn-ghost:hover .button-bottom {
+  background-color: rgba(180, 255, 244, .2);
+  border-color: #90ccc3;
+  color: #b4fff4;
+}
