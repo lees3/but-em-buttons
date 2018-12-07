@@ -41,3 +41,11 @@ i img {
   border-radius: 0 0 3px 3px;
   transition: all 700ms linear;
 }
+
+.btn-ghost:active {
+  top: 3px;
+}
+
+.btn-ghost:active .button-bottom {
+  min-height: .2em;
+}
