@@ -1,0 +1,46 @@
+html {
+  font-family: "Ubuntu Condensed", sans-serif;
+}
+
+body {
+  background: url("../images/starfield.png");
+  background-repeat: repeat;
+  background-position: center;
+}
+
+h1 {
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
+
+.btn {
+  color: #b4fff4;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #b4fff4;
+  border-bottom: double;
+}
+
+.btn:hover {
+
+}
+
+.btn:active {
+  text-shadow: 2px 2px rgba(180, 255, 244, .2);
+  opacity: 20;
+}
+
+.btn-ghost {
+  transition: all 200ms linear;
+}
+
+.banner-content {
+  background-image: url("../images/starfield.png");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: 12px 180px;
+  padding-top: 275px;
+}
